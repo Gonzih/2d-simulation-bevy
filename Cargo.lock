@@ -534,7 +534,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
- "uuid",
+ "uuid 0.8.2",
 ]
 
 [[package]]
@@ -589,7 +589,7 @@ dependencies = [
  "ron",
  "serde",
  "thiserror",
- "uuid",
+ "uuid 0.8.2",
 ]
 
 [[package]]
@@ -709,7 +709,7 @@ dependencies = [
  "getrandom",
  "instant",
  "tracing",
- "uuid",
+ "uuid 0.8.2",
 ]
 
 [[package]]
@@ -1411,7 +1411,7 @@ dependencies = [
  "fnv",
  "gilrs-core",
  "log",
- "uuid",
+ "uuid 0.8.2",
  "vec_map",
 ]
 
@@ -1430,7 +1430,7 @@ dependencies = [
  "nix",
  "rusty-xinput",
  "stdweb 0.4.20",
- "uuid",
+ "uuid 0.8.2",
  "vec_map",
  "web-sys",
  "winapi",
@@ -2674,7 +2674,7 @@ dependencies = [
  "clap",
  "log",
  "rand",
- "uuid",
+ "uuid 1.2.2",
 ]
 
 [[package]]
@@ -2970,6 +2970,12 @@ dependencies = [
  "getrandom",
  "serde",
 ]
+
+[[package]]
+name = "uuid"
+version = "1.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "422ee0de9031b5b948b97a8fc04e3aa35230001a722ddd27943e0be31564ce4c"
 
 [[package]]
 name = "valuable"
